@@ -1,0 +1,99 @@
+*** Etiquetas ***
+
+<html></html>           etiqueta para iniciar el archivo HTML.
+<head></head>           encabezado mayormente para poner título de la pestaña.
+<title></title>         Título de la pestaña.
+<body></body>           para el contenido de la pestaña.
+<!-- *** -->            comentarios para contenido de página web
+<h1></h1>               tamaños de textos. Se utiliza del 1 - 6.
+<p></p>                 se utiliza para párrafos
+<br></br>               sirve para espaciados. salto de Línea.
+<b></b>                 hacer texto en negrita.
+<strong></strong>       Énfasis para el buscador.
+<spam></spam>           CSS. Convinación de estilos.
+<i></i>                 Itálica.
+<blockquote></blockquote>   Cración de Citas.
+<cite></cite>           Quién escribe la cita.
+<hr/>                   Línea de salto de Línea.
+
+*** enlaces ***
+<a href="https://Dominio">Texto</a>                     Ruta Externa en la misma pestaña.
+<a target="_blank" href="https://Dominio">Texto</a>               Ruta Externa pestaña nueva.
+<a href="imagenes/nombre.extensión">Texto</a>     Ruta Relativa.
+
+<link rel = "stylesheet" href = "estilos.css">          link a estilos CSS.
+<script src = "archivo_js"></script>                    Archivos JavaScript
+<link rel="shortcut icon" type="image/x-icon" href="RUTA.ICO">  Ícono de pestaña
+
+*** Listas ***
+<ul></ul>       Listas
+<li></li>       Repreesenta un item.
+
+*** Listas Ordenadas ***
+
+<ol></ol>       Numeración al inicio.
+
+*** Imágenes *** 
+<img src = "RUTA" alt = "" title="" width  ="" height=""/>    
+alt         sirve para facilitar al buscador poniendo un nombre a la imagen.
+title       descripción de l imagen al pasar el mouse.
+
+*** tablas ***
+
+<table></table>
+<tr></tr>           Filas
+<td></td>           Columnas
+
+*** Formularios ***
+<form action = "datos.php" method = "POST" o "GET"></form>           datos.php es el que procesa la info mediante el form
+
+<input type="text" value="Nombre dentro de la casilla">             al escribir no se borra
+<input type="text" placeholder="Nombre dentro de la casilla">       al escribir se borra
+
+*       maxlengh="" máximo de caracteres en la casilla
+*       name="Id"     identificador de la casilla
+*       id = ""
+
+imput color         enviar colores
+imput range         para barra de zoom
+imput email         entrada de texto tipo email
+imput password  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

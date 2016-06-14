@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Calculadora Básica</title>
+<link href="./Estilos.css" rel="stylesheet" type="text/css">
+<script src="./Calculadora.js">
+var calculadora;
+</script>
+</head>
+<body onload="calculadora = new Calculadora(document.getElementById('txtPantalla'));">
+<table width="310px" border="0px" cellpadding="0px" cellspacing="3px">
+<tr>
+<td colspan="3"><input class="cajatexto" id="txtPantalla" type="text" readonly></input></td>
+</tr>
+<tr>
+<td><button class="boton" onclick="calculadora.Seleccionar(this);">9</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">8</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">7</button></td>
+</tr>
+<tr>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">6</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">5</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">4</button></td>
+</tr>
+<tr>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">3</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">2</button></td>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">1</button></td>
+</tr>
+<tr>
+<td><button class="boton" onclick="calculadora.Seleccionar(this)">0</button></td>
+<td ><button class="boton" onclick="calculadora.Seleccionar(this)">Cambio</button></td>
+<td ><button class="boton" onclick="calculadora.Seleccionar(this)">C</button></td>
+</tr>
+</table>
+</body>
+</html>
